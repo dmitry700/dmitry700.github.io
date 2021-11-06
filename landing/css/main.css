@@ -1,0 +1,137 @@
+body{
+    font-family:'Ubuntu','Open Sans', 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: rgb(78,190,254);
+background: linear-gradient(135deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+border: 1px solid rgba(78,190,254,0);
+}
+.container{
+    width:1288px;
+    margin:0 auto 0 auto;
+}
+.wrapper{
+display:flex;
+justify-content: space-between;
+margin: 125px 0 125px 0;
+}
+.title{
+    font-family:Ubuntu;
+    font-size:37px;
+    font-weight:700 ;
+    color: white;
+    width: 514px;
+}
+button{
+    font-family:Montserrat;
+    font-size:15px;
+    font-weight: 700;
+    background-color:#FFD429;
+    width: 222px;
+    height: 56px;
+    border:none;
+}
+.offer p{
+    font-family:Open Sans;
+    font-size:27px;
+    font-weight: 400;
+    color: white;
+    width: 536px;
+    margin: 35px 0px;
+}
+.offer span{
+    font-size: 59px;
+}
+.screen-title{
+    font-weight:700;
+    font-size:30px;
+    text-align: center;
+    margin:117px 0px 74px;
+}
+.can{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 0 85px;
+}
+.time{
+    width:278px;
+}
+.time h3{
+    margin:34px 0 27px; 
+}
+.beach{
+    width:290px;
+}
+.beach h3{
+    margin:24px 0 27px;
+}
+.rocket{
+    width:287px;
+}
+.rocket h3{
+    margin:24px 0 24px;
+}
+.can-item h3{
+font-size:19px;
+font-weight: 700;
+}
+.can-item p{
+    font-size:15px;
+    font-weight:400;
+}
+.section-form{
+background-color:#ECF3F8;
+border: 1px solid #ECF3F8;
+}
+.form{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom:106px;
+}
+input{
+    width:341px;
+    height:46px;
+    margin:0 0 14px 0;
+    padding:0 0 0 25px;
+    box-sizing: border-box;
+}
+.submit{
+    width: 341px;
+
+}
+footer{
+    font-family:Open Sans;
+    background-color:#164D7A;
+}
+.footer-text{
+    padding:60px 0 60px ;
+    margin:0px;
+    text-align: center;
+    font-size:14px;
+    color:#fff;
+    font-weight: 400;
+}
+@media screen and (max-width:992px) {
+    .container{
+    width:960px;
+    }
+    .wrapper{
+    flex-direction: column;
+    align-items:center;
+    }
+    .offer{
+        margin-bottom: 50px;
+        text-align: center;
+    }}
+@media screen and (max-width:768px) {
+    .container{
+        width: 720px;
+    }
+}@media screen and (max-width:576px) {
+    .container{
+        width: 540px;} }
